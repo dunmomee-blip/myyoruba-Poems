@@ -7,41 +7,45 @@
     <title>Yoruba Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Yoruba Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Yoruba Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic of the Yoruba poem"
-          required
-          autofocus
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic of the Yoruba poem"
+            required
+            autofocus
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="response" />
+        </form>
 
-      <div>
-        The poem
-        <br />
-        will be generated here
-      </div>
-    </main>
+        <div class="poem">
+          The poem
+          <br />
+          will be generated here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/dunmomee-blip/" target="_blank"
-        >Tijani Rafiat</a
-      >
-      and is open-sourced on
-      <a href="https://github.com/dunmomee-blip/myyoruba-Poems/" target="_blank"
-        >GitHub</a
-      >. and is hosted on
-      <a href="https://myyoruba-poems.vercel.app/" target="_blank">Vercel</a>.
-    </footer>
-
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/dunmomee-blip/" target="_blank"
+          >Tijani Rafiat</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/dunmomee-blip/myyoruba-Poems/"
+          target="_blank"
+          >GitHub</a
+        >. and is hosted on
+        <a href="https://myyoruba-poems.vercel.app/" target="_blank">Vercel</a>.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
