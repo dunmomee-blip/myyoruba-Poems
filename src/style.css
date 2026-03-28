@@ -53,6 +53,13 @@ form {
   color: white;
   width: 150px;
 }
+
+.response:hover {
+  background-color: darkred;
+  cursor: pointer;
+  color: black;
+}
+
 .poem {
   font-size: 17px;
   padding: 15px;
@@ -67,8 +74,32 @@ form {
   color: darkred;
 }
 
+.hidden {
+  display: none;
+}
+
 footer {
   margin-top: 30px;
   text-align: center;
   font-size: 14px;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+.blink {
+  animation: blinker 1s infinite;
+}
+
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }
