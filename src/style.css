@@ -63,6 +63,10 @@ form {
   color: brown;
 }
 
+.poem strong {
+  color: darkred;
+}
+
 footer {
   margin-top: 30px;
   text-align: center;
